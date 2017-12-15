@@ -1,3 +1,6 @@
+
+
+
 var myImage = document.querySelector('img');
 myImage.onclick = function () {
     var mySrc = myImage.getAttribute('src');
@@ -30,7 +33,11 @@ myButton.onclick = function () {
 
 var buttons = document.querySelectorAll('button');
 for (var i =0; i<buttons.length;i++){
-    buttons[i].addEventListener('click',createParagraph);
+    buttons[i].addEventListener('click',executeNetworkTask);
+}
+
+function executeNetworkTask() {
+
 }
 
 function createParagraph() {
@@ -38,5 +45,6 @@ function createParagraph() {
     para.textContent = 'You clicked the button';
     document.body.appendChild(para);
 }
+
 
 
