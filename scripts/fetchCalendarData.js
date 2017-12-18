@@ -18,8 +18,8 @@ fetch(requestUrlString)
             var basicJsonObject = JSON.parse(data)
             var showapiResponseBody = basicJsonObject.showapi_res_body;
 
-            document.getElementById("gongli").innerHTML = showapiResponseBody.gongli;//公历
-            document.getElementById("nongli").innerHTML = showapiResponseBody.nongli;//农历
+            document.getElementById("currentGregorianYearMonth").innerHTML = showapiResponseBody.gongli;//公历
+            document.getElementById("currentLunarDate").innerHTML = showapiResponseBody.nongli;//农历
             document.getElementById("jieqi24").innerHTML = showapiResponseBody.jieqi24;//节气
             document.getElementById("shengxiao").innerHTML = showapiResponseBody.shengxiao;//生肖
             document.getElementById("xingzuo").innerHTML = showapiResponseBody.xingzuo;//星座

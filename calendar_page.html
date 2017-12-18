@@ -8,15 +8,20 @@
 </head>
 <body>
 
-<div class="everydayinfo" style="height: auto;">
+<div class="everydayinfo" style="height: 100%;">
     <div class="Infotop">
-        <div class="worlDay">2017年12月(大)星期一</div>
-        <div class="NumberDay">18</div>
-        <div id="chinaDay" class="lMonthDay">十一月初一</div>
+        <div id="currentGregorianYearMonth" class="worlDay">2017年12月(大)星期一</div>
+        <div id="currentGregorianDate" class="NumberDay">18</div>
+        <div id="currentLunarDate" class="lMonthDay">十一月初一</div>
         <div class="tactwo">
             <span id="chinaDay2" class="tac">丁酉年【鸡年】</span> <span id="chinaDay3" class="tac">壬子月己卯日</span>
         </div>
-        <div id="yjlist" class="yjlist">
+        <div class="yjlist">
+            <div class="ylist">
+                <nobr>
+                    <span class="ylistName">宜</span><span id="ylist1">祭祀 平治道涂 修坟 除服 成服 馀事勿取 </span>
+                </nobr>
+            </div>
             <div class="ylist">
                 <nobr>
                     <span class="ylistName">宜</span><span id="ylist">祭祀 平治道涂 修坟 除服 成服 馀事勿取 </span>
@@ -27,15 +32,15 @@
                     <span class="jlistName">忌</span><span id="jlist">移徙 入宅 嫁娶 掘井 安葬 </span>
                 </nobr>
             </div>
-        </div>
-
-        <div class="tac">
+            <div class="tac">
                         <span id="av_action">距&nbsp;<span class="av-jrt" id="fname">元旦</span>&nbsp;还有&nbsp;<span
                                 class="av-czt" id="vaCount">14</span>&nbsp;天
                         </span>
+            </div>
         </div>
+
     </div>
-    <div class="Infobottom">
+    <!--<div class="Infobottom">
         <div class="top" id="city">
             <span class="city">南京</span> <span class="change">[切换]</span> <span class="airquality">68良好</span> <span
                 class="air">空气质量:&nbsp;</span>
@@ -75,7 +80,7 @@
         </div>
         <div class="clear"></div>
         <div class="bottom" id="warning">天凉。</div>
-    </div>
+    </div>-->
 </div>
 
 <script src="scripts/fetchCalendarData.js"></script>

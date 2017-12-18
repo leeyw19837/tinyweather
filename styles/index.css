@@ -316,7 +316,7 @@ body {
 }
 
 .everydayinfo .Infotop {
-    height: 56%;
+    height: 76%;
     background-color: #fff;
     margin-bottom: 4%;
     padding-top: 10px;
@@ -400,7 +400,7 @@ body {
     cursor: pointer;
 }
 
-#ylist, #jlist {
+#ylist, #ylist1, #jlist {
     width: 70%;
     text-align: left;
     overflow: hidden;
@@ -430,6 +430,10 @@ body {
     color: #ff7800;
     font-weight: bold;
     margin: 0 5px;
+}
+
+.tac{
+    margin: 3%;
 }
 
 .yearmonth .selectdown {
@@ -540,8 +544,8 @@ body {
 }
 
 .Infobottom {
-    height: 42%;
-    background-color: #fff;
+    height: 24%;
+    background-color: red;
 }
 
 .Infobottom .top {
@@ -554,10 +558,6 @@ body {
     overflow: hidden;
 }
 
-.Infobottom {
-    height: 42%;
-    background-color: #fff;
-}
 
 .Infobottom .top {
     height: 13.621%;
