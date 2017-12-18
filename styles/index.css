@@ -361,8 +361,6 @@ body {
     max-height: 100px;
     margin: 0 10%;
     padding: 3px 0 6px 0;
-    border-bottom: 1px solid #e5e5e5;
-    border-top: 1px solid #e5e5e5;
     margin-bottom: 3%;
     color: #999;
 }
@@ -401,11 +399,11 @@ body {
     cursor: pointer;
 }
 
-#ylist, #ylist1, #jlist {
+#ylist, #ylist1, #jlist, #jlist3 {
     width: 70%;
+    height: auto;
     text-align: left;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .split {
