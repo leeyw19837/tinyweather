@@ -20,8 +20,8 @@ fetch(requestUrlString)
 
             document.getElementById("gongli").innerHTML = showapiResponseBody.gongli;//公历
             document.getElementById("nongli").innerHTML = showapiResponseBody.nongli;//农历
-            document.getElementById("jieqi24").innerHTML = showapiResponseBody.jieqi24;//公历
-            document.getElementById("shengxiao").innerHTML = showapiResponseBody.shengxiao;//农历document.getElementById("gongli").innerHTML = showapiResponseBody.gongli;//公历
-            document.getElementById("xingzuo").innerHTML = showapiResponseBody.xingzuo;//农历
+            document.getElementById("jieqi24").innerHTML = showapiResponseBody.jieqi24;//节气
+            document.getElementById("shengxiao").innerHTML = showapiResponseBody.shengxiao;//生肖
+            document.getElementById("xingzuo").innerHTML = showapiResponseBody.xingzuo;//星座
         })
     })
