@@ -24,10 +24,32 @@ body{
     width:auto;
     margin:0 auto;
     background-color: transparent;
-    background-image: url(../bg_lucky_cloud_2.png);
     background-repeat: no-repeat;
     padding: 20px 20px 20px 20px;
     border: 2px solid red;
+}
+
+div{
+    width: 60px;
+    height: 60px;
+    border: 2px solid rgba(0,0,0,0.5);
+    padding: 20px;
+    margin: 20px 0;
+
+    background-size: 140px;
+    background-position: center;
+    background-image: url(../bg_lucky_cloud_2.png);
+    background-color: gold;
+}
+
+.default{
+    background-clip: border-box;
+}
+.padding-box{
+    background-clip: padding-box;
+}
+.content-box{
+    background-clip: content-box;
 }
 
 h1{
@@ -63,4 +85,43 @@ img{
 .warning{
     background-color: #ff9999;
     border-left: 6px solid #993333;
+}
+
+#nongli{
+    font-family: cursive;
+    background-color: #ff9999;
+}
+
+#jieqi24{
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+[data-vegetable]{
+    color: green;
+}
+
+[data-vegetable="liquid"]{
+    background-color: goldenrod;
+}
+
+[data-vegetable~="spicy"]{
+    color: red;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+p:hover{
+    animation-name: rotate;
+    animation-duration: 0.6s;
+    animation-timing-function: linear;
+    animation-iteration-count: 5;
 }

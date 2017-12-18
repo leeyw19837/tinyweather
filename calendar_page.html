@@ -4,75 +4,77 @@
     <meta charset="UTF-8">
     <title>My Page Title</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-<header>
-    <h1>黄历</h1>
-</header>
 
-<!--<nav>
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Our team</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contactterweeczxcscsd</a></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Our team</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contactterweeczxcscsd</a></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Our team</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contactterweeczxcscsd</a></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Our team</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contactterweeczxcscsd</a></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Our team</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contactterweeczxcscsd</a></li>
-    </ul>
+<div class="everydayinfo" style="height: auto;">
+    <div class="Infotop">
+        <div class="worlDay">2017年12月(大)星期一</div>
+        <div class="NumberDay">18</div>
+        <div id="chinaDay" class="lMonthDay">十一月初一</div>
+        <div class="tactwo">
+            <span id="chinaDay2" class="tac">丁酉年【鸡年】</span> <span id="chinaDay3" class="tac">壬子月己卯日</span>
+        </div>
+        <div id="yjlist" class="yjlist">
+            <div class="ylist">
+                <nobr>
+                    <span class="ylistName">宜</span><span id="ylist">祭祀 平治道涂 修坟 除服 成服 馀事勿取 </span>
+                </nobr>
+            </div>
+            <div class="jlist">
+                <nobr>
+                    <span class="jlistName">忌</span><span id="jlist">移徙 入宅 嫁娶 掘井 安葬 </span>
+                </nobr>
+            </div>
+        </div>
 
-    <form>
-        <input type="search" name="q" placeholder="Search Query">
-        <input type="submit" value="Go!">
-    </form>
-</nav>-->
-
-<main>
-    <article>
-
-        <h2 class="base-box warning important" id="gongli"></h2>
-        <h2 id="nongli"></h2>
-        <h2 id="jieqi24"></h2>
-        <h2 id="shengxiao"></h2>
-        <h2 id="xingzuo"></h2>
-
-    </article>
-
-    <aside>
-        <h2>Related</h2>
-
-        <ul>
-            <li class="first done"><a href="#">Oh I do like to be beside the seaside</a></li>
-            <li class="second done"><a href="#">Oh I do like to be beside the sea</a></li>
-            <li class="third"><a href="#">Although in the North of England</a></li>
-            <li><a href="#">It never stops raining</a></li>
-            <li><a href="#">Oh well...</a></li>
-        </ul>
-
-    </aside>
-
-</main>
-
-<hr color="#443356">
-
-<footer>
-    <p>Copyright All rights reserved</p>
-</footer>
+        <div class="tac">
+                        <span id="av_action">距&nbsp;<span class="av-jrt" id="fname">元旦</span>&nbsp;还有&nbsp;<span class="av-czt" id="vaCount">14</span>&nbsp;天
+                        </span>
+        </div>
+    </div>
+    <div class="Infobottom">
+        <div class="top" id="city">
+            <span class="city">南京</span> <span class="change">[切换]</span> <span class="airquality">68良好</span> <span class="air">空气质量:&nbsp;</span>
+        </div>
+        <div class="clear"></div>
+        <div class="mid" id="weather" style="background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%;">
+            <div class="m_left">
+                <ul class="one_day" id="day0">
+                    <li>18日星期一</li>
+                    <li><img id="today_icon" src="img/cloud.png" alt=""></li>
+                    <li id="today_tem">8<span class="juhao">º</span></li>
+                    <li>多云</li>
+                    <li> -2℃~ 8℃</li>
+                    <li><span>西南风</span>&nbsp;<span>&lt;![CDATA[3-4级]]&gt;</span></li>
+                </ul>
+            </div>
+            <div class="m_mid">
+                <ul class="two_day" id="day1">
+                    <li>19日星期二</li>
+                    <li><img src="img/cloud2.png" alt=""></li>
+                    <li></li>
+                    <li>多云</li>
+                    <li> -3℃~ 9℃</li>
+                    <li><span>北风</span>&nbsp;<span>&lt;![CDATA[3-4级]]&gt;</span></li>
+                </ul>
+            </div>
+            <div class="m_right">
+                <ul class="third_day" id="day2">
+                    <li>20日星期三</li>
+                    <li><img src="img/fine2.png" alt=""></li>
+                    <li></li>
+                    <li>晴</li>
+                    <li> -2℃~ 10℃</li>
+                    <li><span>西北风</span>&nbsp;<span>&lt;![CDATA[4-5级]]&gt;</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="bottom" id="warning">天凉。</div>
+    </div>
+</div>
 
 <script src="scripts/fetchCalendarData.js"></script>
 </body>
