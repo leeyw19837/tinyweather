@@ -43,14 +43,24 @@ img{
     margin:0 auto;
 }
 
-div p, #id:first-line{
-    background-color: turquoise;
-    background-style:none;
+.first{
+    font-weight: bold;
 }
 
-@media (min-width: 801px) {
-    body{
-        margin:0 auto;
-        width: 800px;
-    }
+.done{
+    text-decoration: line-through;
+}
+
+.base-box{
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.3));
+    padding: 3px 3px 3px 7px;
+}
+
+.important{
+    font-weight: bold;
+}
+
+.warning{
+    background-color: #ff9999;
+    border-left: 6px solid #993333;
 }
