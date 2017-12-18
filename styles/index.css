@@ -318,7 +318,7 @@ body {
 .everydayinfo .Infotop {
     height: 100%;
     background-color: #fff;
-    margin: 4%;
+    margin: 1%;
     padding-top: 10px;
     padding-bottom: 10px; /*border:1px solid #e5e5e5;box-shadow: 1px 1px 1px #e5e5e5;*/
 }
@@ -400,7 +400,7 @@ body {
 }
 
 #ylist, #ylist1, #jlist, #jlist3 {
-    width: 70%;
+    width: auto;
     height: auto;
     text-align: left;
     border-bottom: 1px solid #e5e5e5;
