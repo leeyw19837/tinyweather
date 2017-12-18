@@ -310,7 +310,6 @@ body {
 .everydayinfo {
     width: auto;
     height: 100%;
-    float: right;
     color: #999;
     overflow: hidden;
     position: relative;
