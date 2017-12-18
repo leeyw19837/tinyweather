@@ -341,7 +341,8 @@ body {
     text-align: center;
     font: 70px Arial;
     color: #0af;
-    height: 30%;
+    height: auto;
+    margin: 2%;
 }
 
 .lMonthDay {
@@ -350,8 +351,8 @@ body {
     text-align: center;
     font-weight: bolder;
     line-height: 16px;
-    margin-bottom: 6px;
-    height: 8.4175%;
+    margin: 2%;
+    height: auto;
 }
 
 .yjlist {
