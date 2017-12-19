@@ -1,3 +1,8 @@
+*{
+    margin:1%;
+    padding: 1%;
+}
+
 html, body {
     background-color: #f3f3f3;
     background-image: url(../images/bg_luck_cloud.jpg);
@@ -16,10 +21,7 @@ html, body {
 .everydayinfo .Infotop {
     height: 100%;
     background-color: #fff;
-    background-image: url(../images/bg_luck_cloud.jpg);
-    margin: 1%;
-    padding-top: 10px;
-    padding-bottom: 10px; /*border:1px solid #e5e5e5;box-shadow: 1px 1px 1px #e5e5e5;*/
+    padding: 10px; /*border:1px solid #e5e5e5;box-shadow: 1px 1px 1px #e5e5e5;*/
 }
 
 .tactwo {
