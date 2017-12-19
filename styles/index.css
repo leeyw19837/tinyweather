@@ -24,21 +24,21 @@ html, body {
     padding: 10px; /*border:1px solid #e5e5e5;box-shadow: 1px 1px 1px #e5e5e5;*/
 }
 
-.tactwo {
+.clsShengxiaoGanzhi {
     text-align: center;
     font-size: 13px;
     color: #999;
     margin-bottom: 10px;
 }
 
-.worlDay {
+.clsGregorianYearMonth {
     text-align: center;
     font-size: 14px;
     color: #666;
     height: 5.3872%;
 }
 
-.NumberDay {
+.clsGregorianDate {
     text-align: center;
     font: 70px Arial;
     color: #0af;
@@ -46,7 +46,7 @@ html, body {
     margin: 2%;
 }
 
-.lMonthDay {
+.clsLunarDate {
     font-size: 16px;
     color: #666;
     text-align: center;
@@ -56,17 +56,16 @@ html, body {
     height: auto;
 }
 
-.yjlist {
-    width: 80%;
-    height: 93px;
-    max-height: 100px;
-    margin: 0 10%;
-    padding: 3px 0 6px 0;
-    margin-bottom: 3%;
+.clsYiJiList {
+    width: 100%;
+    height: auto;
     color: #999;
+    word-wrap: break-word;
+    word-break: break-all;
+    display: inline-block;
 }
 
-.yjlist span {
+.clsYiJiList span {
     display: inline-block;
 }
 
@@ -94,16 +93,20 @@ html, body {
     color: #fff;
 }
 
-.ylist, .jlist {
+.clsYiList,.clsJiList {
     margin-top: 7%;
     overflow: hidden;
     cursor: pointer;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 
-#ylist, #ylist1, #jlist, #jlist3 {
-    width: auto;
-    height: auto;
+#currentDayYi, #currentDayYi{
+    width: 100%;
+    height: 100%;
     text-align: left;
+    word-wrap: break-word;
+    word-break: break-all;
     border-bottom: 1px solid #e5e5e5;
 }
 
